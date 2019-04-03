@@ -94,7 +94,7 @@
 				46E694421B289730000B634E /* Supporting Files */,
 			);
 			name = WebkitLocalStorageReaderTests;
-			path = InAppUtilsTests;
+			path = WebkitLocalStorageReaderTests;
 			sourceTree = "<group>";
 		};
 		46E694421B289730000B634E /* Supporting Files */ = {
@@ -139,7 +139,7 @@
 				46E694401B289730000B634E /* PBXTargetDependency */,
 			);
 			name = WebkitLocalStorageReaderTests;
-			productName = InAppUtilsTests;
+			productName = WebkitLocalStorageReaderTests;
 			productReference = 46E6943D1B289730000B634E /* WebkitLocalStorageReader.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -335,7 +335,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = InAppUtilsTests/Info.plist;
+				INFOPLIST_FILE = WebkitLocalStorageReaderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = WebkitLocalStorageReader;
 			};
