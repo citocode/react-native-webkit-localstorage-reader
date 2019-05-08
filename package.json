@@ -15,8 +15,7 @@
   "files": [
     "android",
     "WebkitLocalStorageReader",
-    "WebkitLocalStorageReader.xcodeproj",
-    "WebkitLocalStorageReaderTests"
+    "WebkitLocalStorageReader.xcodeproj"
   ],
   "rnpm": {
     "ios": {

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		46E6943E1B289730000B634E /* libWebkitLocalStorageReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E694321B289730000B634E /* libWebkitLocalStorageReader.a */; };
-		E29044631BC8756A000EB992 /* WebkitLocalStorageReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E29044621BC8756A000EB992 /* WebkitLocalStorageReader.m */; settings = {ASSET_TAGS = (); }; };
+		E29044631BC8756A000EB992 /* WebkitLocalStorageReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E29044621BC8756A000EB992 /* WebkitLocalStorageReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		46E694321B289730000B634E /* libWebkitLocalStorageReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWebkitLocalStorageReader.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E6943D1B289730000B634E /* WebkitLocalStorageReader.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebkitLocalStorageReader.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		46E694431B289730000B634E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E29044611BC8756A000EB992 /* WebkitLocalStorageReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebkitLocalStorageReader.h; path = WebkitLocalStorageReader/WebkitLocalStorageReader.h; sourceTree = SOURCE_ROOT; };
 		E29044621BC8756A000EB992 /* WebkitLocalStorageReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebkitLocalStorageReader.m; path = WebkitLocalStorageReader/WebkitLocalStorageReader.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -64,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				46E694341B289730000B634E /* WebkitLocalStorageReader */,
-				46E694411B289730000B634E /* WebkitLocalStorageReaderTests */,
 				46E694331B289730000B634E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,23 +84,6 @@
 			);
 			name = WebkitLocalStorageReader;
 			path = InAppUtils;
-			sourceTree = "<group>";
-		};
-		46E694411B289730000B634E /* WebkitLocalStorageReaderTests */ = {
-			isa = PBXGroup;
-			children = (
-				46E694421B289730000B634E /* Supporting Files */,
-			);
-			name = WebkitLocalStorageReaderTests;
-			path = WebkitLocalStorageReaderTests;
-			sourceTree = "<group>";
-		};
-		46E694421B289730000B634E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				46E694431B289730000B634E /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +146,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 46E694291B289730000B634E;
