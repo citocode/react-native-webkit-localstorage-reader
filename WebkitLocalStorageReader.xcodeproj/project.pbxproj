@@ -7,19 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46E6943E1B289730000B634E /* libWebkitLocalStorageReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E694321B289730000B634E /* libWebkitLocalStorageReader.a */; };
 		E29044631BC8756A000EB992 /* WebkitLocalStorageReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E29044621BC8756A000EB992 /* WebkitLocalStorageReader.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		46E6943F1B289730000B634E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46E6942A1B289730000B634E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46E694311B289730000B634E;
-			remoteInfo = InAppUtils;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		46E694301B289730000B634E /* CopyFiles */ = {
@@ -35,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		46E694321B289730000B634E /* libWebkitLocalStorageReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWebkitLocalStorageReader.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		46E6943D1B289730000B634E /* WebkitLocalStorageReader.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebkitLocalStorageReader.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29044611BC8756A000EB992 /* WebkitLocalStorageReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebkitLocalStorageReader.h; path = WebkitLocalStorageReader/WebkitLocalStorageReader.h; sourceTree = SOURCE_ROOT; };
 		E29044621BC8756A000EB992 /* WebkitLocalStorageReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebkitLocalStorageReader.m; path = WebkitLocalStorageReader/WebkitLocalStorageReader.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -45,14 +33,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46E6943A1B289730000B634E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46E6943E1B289730000B634E /* libWebkitLocalStorageReader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				46E694321B289730000B634E /* libWebkitLocalStorageReader.a */,
-				46E6943D1B289730000B634E /* WebkitLocalStorageReader.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,24 +85,6 @@
 			productReference = 46E694321B289730000B634E /* libWebkitLocalStorageReader.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		46E6943C1B289730000B634E /* WebkitLocalStorageReaderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46E694491B289730000B634E /* Build configuration list for PBXNativeTarget "WebkitLocalStorageReaderTests" */;
-			buildPhases = (
-				46E694391B289730000B634E /* Sources */,
-				46E6943A1B289730000B634E /* Frameworks */,
-				46E6943B1B289730000B634E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46E694401B289730000B634E /* PBXTargetDependency */,
-			);
-			name = WebkitLocalStorageReaderTests;
-			productName = WebkitLocalStorageReaderTests;
-			productReference = 46E6943D1B289730000B634E /* WebkitLocalStorageReader.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -134,9 +95,6 @@
 				ORGANIZATIONNAME = "Chirag Jain";
 				TargetAttributes = {
 					46E694311B289730000B634E = {
-						CreatedOnToolsVersion = 6.3.1;
-					};
-					46E6943C1B289730000B634E = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
@@ -155,20 +113,9 @@
 			projectRoot = "";
 			targets = (
 				46E694311B289730000B634E /* WebkitLocalStorageReader */,
-				46E6943C1B289730000B634E /* WebkitLocalStorageReaderTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		46E6943B1B289730000B634E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46E6942E1B289730000B634E /* Sources */ = {
@@ -179,22 +126,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46E694391B289730000B634E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		46E694401B289730000B634E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 46E694311B289730000B634E /* WebkitLocalStorageReader */;
-			targetProxy = 46E6943F1B289730000B634E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		46E694441B289730000B634E /* Debug */ = {
@@ -305,38 +237,6 @@
 			};
 			name = Release;
 		};
-		46E6944A1B289730000B634E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WebkitLocalStorageReaderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = WebkitLocalStorageReader;
-			};
-			name = Debug;
-		};
-		46E6944B1B289730000B634E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = InAppUtilsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = WebkitLocalStorageReader;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -354,15 +254,6 @@
 			buildConfigurations = (
 				46E694471B289730000B634E /* Debug */,
 				46E694481B289730000B634E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46E694491B289730000B634E /* Build configuration list for PBXNativeTarget "WebkitLocalStorageReaderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46E6944A1B289730000B634E /* Debug */,
-				46E6944B1B289730000B634E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
